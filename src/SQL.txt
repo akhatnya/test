@@ -1,0 +1,4 @@
+﻿SELECT SubSel.ProductName as ProductName, C.Name as CategoryName 
+    FROM (SELECT P.Name as ProductName, PC.IdCategory as IdCategory 
+            FROM Product P LEFT JOIN ProductCategory PC on P.Id = PC.IdProduct) SubSel 
+    LEFT JOIN Category C on SubSel.IdCategory = C.Id;

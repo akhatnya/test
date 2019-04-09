@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geometrics", "src\geometrics.csproj", "{FFAC8E25-AEE3-4EDD-AF59-BFACC029D012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geometrics-test", "tests\geometrics-test.csproj", "{C620DF6A-0656-4331-B267-158EDCEBEB12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFAC8E25-AEE3-4EDD-AF59-BFACC029D012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAC8E25-AEE3-4EDD-AF59-BFACC029D012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAC8E25-AEE3-4EDD-AF59-BFACC029D012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAC8E25-AEE3-4EDD-AF59-BFACC029D012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C620DF6A-0656-4331-B267-158EDCEBEB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C620DF6A-0656-4331-B267-158EDCEBEB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C620DF6A-0656-4331-B267-158EDCEBEB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C620DF6A-0656-4331-B267-158EDCEBEB12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
